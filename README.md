@@ -6,7 +6,7 @@ Enclosed is a Jupyter Notebook which uses various Machine Learning Models to pre
 ## Problem Statement
 The extraction of data has been done Barry Becker from the 1994 Census database.
 Based on the various columns available (i.e Age, Education, Race, Hours worked per week, etc...), our task is classify an employee into 2 categories: 
-* >=50K 
+* &gt;=50K 
 * <50K 
 
 ## Approach
