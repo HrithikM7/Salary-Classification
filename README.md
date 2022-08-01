@@ -1,12 +1,11 @@
 # Salary-Classification
-Early Student Failure Detection Algorithm
-## Quick Intro
-Enclosed is a Jupyter Notebook for some research done at an institution. I've added noise so the real data but the idea still persists. This work uses Machine Learning Models to predict student success in a calculus-based kinematics course.
 
-If you want to see some Exploratory Data Analysis on this project I go in-depth here
+## Quick Intro
+Enclosed is a Jupyter Notebook which uses various Machine Learning Models to predict whether a person makes over $50K a year.
 
 ## Problem Statement
-Given access to institutional data on students taking an introductory calculus-based kinematics course (e.g. Gender, SAT Scores, ACT Scores, High School GPA, Math Score (when applicable), Force Concept Inventory Scores, etc...) can we predict whether or not a student can be successful.
+The extraction of data has been done Barry Becker from the 1994 Census database.
+Based on the various columns available (i.e Age, Education, Race, Hours worked per week, etc...), our task is classify an employee into 2 categories: - >=50K and - <50K 
 
 ## Approach
 I used several features (College GPA, SAT Scores, etc...) to predict our target variable (student success) and split the data into tresting and training groups. I then created a naive baseline to which I would compare my machine earning models against. I implemented several machine learning algorithms such as Random Forest, Logistic Regression, Support Vector Machine and Neural Networks to model and fit our data. To quantify our models I used the metrics of model accuracy, model classification report (F1 Score, Precision, Accuracy Between Classes, Recall), model confusion matrix, model ROC Curve and AUC score.
