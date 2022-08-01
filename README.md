@@ -5,7 +5,9 @@ Enclosed is a Jupyter Notebook which uses various Machine Learning Models to pre
 
 ## Problem Statement
 The extraction of data has been done Barry Becker from the 1994 Census database.
-Based on the various columns available (i.e Age, Education, Race, Hours worked per week, etc...), our task is classify an employee into 2 categories: * >=50K and * <50K 
+Based on the various columns available (i.e Age, Education, Race, Hours worked per week, etc...), our task is classify an employee into 2 categories: 
+* >=50K 
+* <50K 
 
 ## Approach
 I used several features (College GPA, SAT Scores, etc...) to predict our target variable (student success) and split the data into tresting and training groups. I then created a naive baseline to which I would compare my machine earning models against. I implemented several machine learning algorithms such as Random Forest, Logistic Regression, Support Vector Machine and Neural Networks to model and fit our data. To quantify our models I used the metrics of model accuracy, model classification report (F1 Score, Precision, Accuracy Between Classes, Recall), model confusion matrix, model ROC Curve and AUC score.
